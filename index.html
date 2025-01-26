@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Genie - Your Travel Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="background-overlay"></div>
+  <div class="chatbot-container">
+    <div class="chat-header">
+      <span class="chat-title">TOUR GENIE</span>
+      <span class="chat-subtitle">Your Travel Companion</span>
+    </div>
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-message bot">
+        <p>🌍 Hello, traveler! How can I help you with your adventure today? 🌟</p>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Where would you like to travel?" />
+      <button id="sendButton">Send ✈️</button>
+    </div>
+  </div>
+  <div class="loading-spinner" id="loadingSpinner"></div>
+  <script src="app.js"></script>
+</body>
+</html>
+
